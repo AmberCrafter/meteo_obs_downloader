@@ -1,4 +1,4 @@
-import {format} from "react-string-format";
+// import {format} from "react-string-format";
 
 const url_base: string = "https://k8s.ideasky.app"
 const url: string = url_base + "/naho/api/v1/";

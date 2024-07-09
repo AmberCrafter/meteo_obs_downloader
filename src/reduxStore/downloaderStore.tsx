@@ -56,7 +56,7 @@ export const downloaderSlice: Slice<DownloadControlBlock> = createSlice({
             state.parameterCode = state.parameterCode.filter((val) => val!==action.payload.paraCode);
             // console.log(state.parameter);
         },
-        'clearParameters': (state, action: PayloadAction<void>) => {
+        'clearParameters': (state) => {
             state.parameter = [] as string[];
             state.parameterCode = [] as number[];
         },
