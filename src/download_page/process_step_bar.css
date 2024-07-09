@@ -1,0 +1,11 @@
+.process-set-bar {
+    padding: 10px 0 10px 0;
+    display: flex;
+    /* margin: 0 5% 0 5%; */
+    position: absolute;
+    top: 10px;
+}
+
+.process-set-bar button {
+    margin: 0 5px 0 5px;
+}

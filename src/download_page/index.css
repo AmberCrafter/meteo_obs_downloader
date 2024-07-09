@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+}
+
+.time-select-container {
+    padding-bottom: 30px;
+}
+
+.time-select-key {
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.parameter-button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
